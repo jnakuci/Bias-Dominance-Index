@@ -8,7 +8,7 @@ The current formulation supports additive offsets from `Linear`, `Conv1d`, `Conv
 
 For transformer models, query and key projection biases are excluded by default because they affect attention scores through interaction terms rather than contributing as direct additive evidence offsets. Value-projection biases are retained when implemented as standalone modules. Fused QKV projections are excluded conservatively by default unless architecture-specific slicing is implemented.
 
-The package supports aggregate and layer-resolved BDI estimates, automatic detection of supported bias-containing layers, exclusion of query/key attention biases, and custom scalar margins for non-standard model outputs. It is intended for model auditing, interpretability research, and mechanism-aware analysis of neural-network confidence.
+The package supports aggregate and layer-resolved BDI estimates, automatic detection of supported bias-containing layers, exclusion of query/key attention biases, and custom scalar margins for non-standard model outputs. It is intended for model auditing, interpretability research, and mechanism-aware analysis of neural-network confidence and trust.
 
 ## License
 
