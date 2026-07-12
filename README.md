@@ -12,4 +12,10 @@ The package supports aggregate and layer-resolved BDI estimates, automatic detec
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This repository is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+You may share the code and accompanying materials with attribution, but you may not use them for commercial purposes or distribute modified versions.
+
+Copyright (c) 2026 Johan Nakuci.
+
+See `LICENSE` for details.
